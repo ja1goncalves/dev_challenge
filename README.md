@@ -4,7 +4,7 @@ Web Developer Interview Test
 
 Thank you for your interest in working with us! This is a practical test that all candidates must complete before being considered for employment as a web developer.
 
-Please fork this repository, respond to the following problems in the corresponding files, and make it available on your own GitHub account as a PRIVATE Repository. And then add `caiodounis` as a collaborator.
+Please use this repository as a template to create your own repository (do not fork). Respond to the following problems in the corresponding files, and make it available on your own GitHub account as a PRIVATE Repository. And then add `caiodounis` as a collaborator.
 
 ## Problem 1 (PHP)
 
