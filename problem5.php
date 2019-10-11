@@ -20,7 +20,7 @@ $dql = 'SELECT date_create, price, sum(price) as total
 
 $result2 = mysqli_query($link, $sql);
 
-echo $result1;
-echo $result2;
+mysqli_free_result($result1);
+mysqli_free_result($result2);
 
 mysqli_close($link);
