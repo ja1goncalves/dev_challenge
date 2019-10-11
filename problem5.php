@@ -9,7 +9,7 @@ $sql = 'SELECT "products"."id"
         WHERE "orders"."id" = 0
         COUNT;';
 
-$result1 = mysqli_query($sql, $link);
+$result1 = mysqli_query($link, $sql);
 
 $date = date_create($_POST['date']);
 
@@ -18,7 +18,7 @@ $dql = 'SELECT date_create, price, sum(price) as total
         WHERE date_create = '. $date .'
         GROUP BY date_create, price';
 
-$result2 = mysqli_query($sql, $link);
+$result2 = mysqli_query($link, $sql);
 
 echo $result1;
 echo $result2;
